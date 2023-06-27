@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo {
+  font-size: 35px;
+  margin-right: 100px;
+  font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Ajout de cette ligne */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-family: 'Tsukimi Rounded', sans-serif;
+  font-size: 25px;
+}
+
+.textegauche {
+  font-family: 'Moirai One', cursive;
+  font-size: 200%;
+  margin-left: 30px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  opacity: 80%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 175px;
+}
+
+.image-container {
+  position: fixed;
+  top: 45%;
+  right: 18%;
+  transform: translateY(-50%);
+}
+
+.image-container img {
+  width: 200px; /* Remplacez la valeur par la largeur souhaitée */
+  height: auto;
+  opacity: 50%;
+}
+
+.image-caption {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Tsukimi Rounded', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  right: 11%;
+}
+
+#section1 {
+  height: 100vh;
+  background-image: url("cool-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#section2 {
+  height: 100vh;
+  background-image: url("back2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#retourHaut {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  margin: 0;
+  height: auto;
+  width: 70px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 65%; /* Ajustez la valeur selon vos besoins */
+  opacity: 0.7;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.textegauche2 {
+  font-family: 'Moirai One', cursive;
+  font-size: 200%;
+  margin-left: 30px;
+  opacity: 70%;
+} 
+
+.texteintro {
+  font-family: 'Tsukimi Rounded', sans-serif;
+  width: 50%;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 120%;
+  line-height: 2;
+  transform: translate(-50%, -50%);
+}
